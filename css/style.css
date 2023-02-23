@@ -1,0 +1,30 @@
+.text_login{
+  text-align: center;
+  margin-top: 30px;
+}
+
+.button-width a{
+  width: 100%;
+}
+
+.d-flex{
+ margin: auto;
+}
+
+.d-flex, .col{
+  width: 450px;
+}
+
+.my-checkbox.filled-in:checked + span:not(.lever):after {
+  top: 0;
+
+  width: 20px;
+
+  height: 20px;
+
+  border: 2px solid #01579b;
+
+  background-color: #01579b;
+
+  z-index: 0;
+}
