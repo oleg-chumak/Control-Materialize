@@ -46,3 +46,23 @@
 .list_style li:hover{
   background-color: #01589b2c;
 }
+
+.card_content, p{
+  display: flex;
+  align-items: center;
+  padding-top: 10px;
+}
+
+.card-stacked{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row !important;
+}
+
+.active-friends{
+  background-color: #01589b2c;
+}
+
+.content-right li{
+  margin: 10px;
+}
