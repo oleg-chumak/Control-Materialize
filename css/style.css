@@ -66,3 +66,17 @@
 .content-right li{
   margin: 10px;
 }
+
+.card_main{
+  display: inline-flex;
+}
+
+.card-pad{
+  padding: 10px;
+}
+
+.boat_img img{
+  max-width: 150px;
+  max-height: 300px;
+}
+
