@@ -118,6 +118,17 @@
   display: flex;
 }
 
+.action-right{
+  display: flex;
+  justify-content: end;
+}
+
+.grey-text-flex{
+  display:flex ;
+}
+.grey-text-flex p{
+  padding: 5px;
+}
 
 @media only screen and (min-width: 0) {
   .card_title-bg {
