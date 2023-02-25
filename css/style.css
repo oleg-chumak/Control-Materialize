@@ -89,12 +89,20 @@
   .card_title-bg {
       font-size:13px !important;
   }
+  .disl-none{
+    display: none;
+    
+  }
 }
 
 @media only screen and (min-width: 992px) {
   .card_title-bg {
       font-size:13px !important;
   }
+  .disl-none{
+    display: block;
+  }
+  
 }
 
 @media only screen and (min-width: 1200px) {

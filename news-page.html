@@ -14,6 +14,7 @@
     <div class="container">
       <div class="nav-wrapper">
         <a href="#" class="brand-logo">SN</a>
+        <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
         <div class="right">
           <ul>
             <li><img src="./icon/av_64.png" alt=""></li>
@@ -25,9 +26,28 @@
     </div>
   </nav>
 
+  <ul id="slide-out" class="sidenav">
+    <li>
+      <div class="user-view">
+        <div class="background indigo">
+        </div>
+        <a href="#user"><img class="circle" src="https://www.skimpygames.com/wp-content/uploads/2019/02/omino.png"></a>
+        <a href="#name"><span class="white-text name">John Doe</span></a>
+        <a href="#email"><span class="white-text email">jdandturk@gmail.com</span></a>
+      </div>
+    </li>
+    <li class="active-friends"><a href="#"><i class="small material-icons indigo-text">assignment_ind</i>My profile</a></li>
+    <li><a href="#"><i class="small material-icons indigo-text">web</i>News</a></li>
+    <li><a href="#"><i class="small material-icons indigo-text">mail</i> Messages<span
+          style="background-color: #01579b;" class="new badge">4</span></a></li>
+    <li><a href="#"><i class="small material-icons indigo-text">face</i>Friends</a></li>
+    <li><a href="#"><i class="small material-icons indigo-text">event</i>Events</a></li>
+    <li><a href="#"><i class="small material-icons indigo-text">crop_original</i>Media</a></li>
+  </ul>
+
   <div class="container mt g5">
     <div class="row ">
-      <div class="col s12 m3">
+      <div class="col s12 m3 disl-none">
           <ul class="list_style">
             <li><a href="#"><i class="small material-icons indigo-text">assignment_ind</i>My profile</a></li>
             <li class="active-friends"><a href="#"><i class="small material-icons indigo-text">web</i>News</a></li>
@@ -37,7 +57,7 @@
             <li><a href="#"><i class="small material-icons indigo-text">crop_original</i>Media</a></li>
           </ul>
       </div>
-      <div class="col s12 m9">
+      <div class="col s12 l9">
         <div class="row valign-wrapper">
           <div class="col s12 m6">
             <h4 style="margin: 0;">News</h4>
@@ -133,5 +153,6 @@
 
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="./js/script.js"></script>
 </body>
 </html>
