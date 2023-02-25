@@ -84,6 +84,40 @@
   margin-bottom: 10px;
 }
 
+.profile-main-content{
+  display: flex;
+  flex-direction: column;
+}
+
+.friend{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.friend-flex{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 31%;
+  text-align: center;
+}
+
+
+.birthday{
+  display: flex;
+  align-items: center;
+}
+
+.main_card_action{
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-action-flex{
+  display: flex;
+}
+
 
 @media only screen and (min-width: 0) {
   .card_title-bg {
@@ -110,4 +144,6 @@
       font-size:20px !important;
   }
 }
+
+
 
